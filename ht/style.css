@@ -1,0 +1,122 @@
+body {
+    font-family: sans-serif;
+    color: #1f1919 ;
+}
+a {
+    color: #1f1919 y;
+    text-decoration: none;
+}
+
+.active {
+    color: #00b39b;
+}
+.Docplanner-header {
+     display: flex;
+     justify-content: space-between ; 
+     padding: 10px;
+}
+
+.introduction {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 0;
+}
+.introduction-logo {
+    width: 50px;
+    height: 50px;
+    background-color: #00b39b;
+}
+.introduction-title {
+    color: #00b39b;
+}
+.introduction-texte {
+    display: flex;
+    font-family: Roboto,Arial,sans-serif;
+    color: #747474;
+    padding: 50px;
+}
+.introduction-paragraph {
+    margin: 10px;
+}
+.services {
+    display: flex;
+}
+.service-card {
+    padding: 20px;
+    border-radius: 8px;
+    color: white;
+    margin: 10px;
+    position: relative;
+    height: 200px;
+}
+.service-card-patients {
+    background-color: #24d9c1;
+}
+.service-card-doctors {
+    background-color: #3d83df;
+}
+.service-card-clinics {
+    background-color: #201f1f;
+
+}
+.service-card-select {
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+.service-card-image {
+    width: 120px;
+    height: 100px;
+    background-color: white;
+    position: absolute;
+    bottom: 40px;
+    right: 0;
+}
+.introduction-2-title{
+    display: flex;
+    justify-content: center; 
+    color: #00b39b;
+    padding: 10px;   
+}
+.introduction-2-paragraph{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    margin: 10px;   
+    color: #747474;
+}
+.image{
+    display: flex;
+    padding: 20px;
+    border-radius: 8px;
+    margin: 10px;
+    position: relative;
+    height: 200px;
+}
+.warsaw{
+    flex: 33.33%;
+    padding: 5px;
+}
+.barcelona{
+    flex: 33.33%;
+    padding: 5px;
+}
+.munich{
+    flex: 33.33%;
+    padding: 5px;
+}
+.istanbul{
+    flex: 33.33%;
+    padding: 5px;
+}
+.button{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    position: relative;
+    background-color: #3d83df;
+    padding: 5px;
+    color: white;
+}
